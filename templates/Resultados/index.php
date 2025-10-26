@@ -1,0 +1,55 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var iterable<\App\Model\Entity\Resultado> $resultados
+ */
+?>
+<div class="resultados index content">
+    <?= $this->Html->link(__('Nuevo Resultado'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <h3><?= __('Resultados') ?></h3>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th><?= $this->Paginator->sort('id') ?></th>
+                    <th><?= $this->Paginator->sort('muestra_id') ?></th>
+                    <th><?= $this->Paginator->sort('poder_germinativo') ?></th>
+                    <th><?= $this->Paginator->sort('pureza') ?></th>
+                    <th class="actions"><?= __('Actions') ?></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($resultados as $resultado): ?>
+                <tr>
+                    <td><?= $this->Number->format($resultado->id) ?></td>
+                    <td><?= $resultado->hasValue('muestra') ? $this->Html->link($resultado->muestra->numero_de_precinto, ['controller' => 'Muestras', 'action' => 'view', $resultado->muestra->id]) : '' ?></td>
+                    <td><?= $this->Number->format($resultado->poder_germinativo) ?></td>
+                    <td><?= $this->Number->format($resultado->pureza) ?></td>
+                    <td class="actions">
+                        <?= $this->Html->link(__('Ver'), ['action' => 'view', $resultado->id]) ?>
+                        <?= $this->Html->link(__('Editar'), ['action' => 'edit', $resultado->id]) ?>
+                        <?= $this->Form->postLink(
+                            __('Eliminar'),
+                            ['action' => 'delete', $resultado->id],
+                            [
+                                'method' => 'delete',
+                                'confirm' => __('Estas seguro que quieres eliminar el Resultado # {0}?', $resultado->id),
+                            ]
+                        ) ?>
+                    </td>
+                </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+    <div class="paginator">
+        <ul class="pagination">
+            <?= $this->Paginator->first('<< ' . __('Primero')) ?>
+            <?= $this->Paginator->prev('< ' . __('Anterior')) ?>
+            <?= $this->Paginator->numbers() ?>
+            <?= $this->Paginator->next(__('Siguiente') . ' >') ?>
+            <?= $this->Paginator->last(__('Último') . ' >>') ?>
+        </ul>
+        <p><?= $this->Paginator->counter(__('Página {{page}} de {{pages}}, mostrando {{current}} resultados(s) de {{count}} en total')) ?></p>
+    </div>
+</div>

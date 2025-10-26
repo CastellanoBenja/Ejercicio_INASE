@@ -5,7 +5,15 @@
  */
 ?>
 <div class="muestras index content">
-    <?= $this->Html->link(__('Agregar Nueva Muestra'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <div class="dropdown float-right">
+        <button class="dropbtn">Opciones ▼</button>
+            <div class="dropdown-content">
+            <?= $this->Html->link('Agregar Muestra', ['action' => 'add'], ['class' => 'dropdown-item']) ?>
+            <?= $this->Html->link('Agregar Resultado', ['controller' => 'Resultados', 'action' => 'add'], 
+            ['class' => 'dropdown-item']) ?>
+            <?= $this->Html->link('Generar Reporte', ['action' => ''], ['class' => 'dropdown-item']) ?>
+    </div>
+</div>
     <h3><?= __('Muestras') ?></h3>
     <div class="table-responsive">
         <table>

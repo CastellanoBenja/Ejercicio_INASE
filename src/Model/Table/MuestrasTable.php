@@ -40,6 +40,9 @@ class MuestrasTable extends Table
         $this->setTable('muestras');
         $this->setDisplayField('numero_de_precinto');
         $this->setPrimaryKey('id');
+        $this->hasOne('Resultados', [ 
+            'foreignKey' => 'muestra_id',
+        ]);
     }
 
     /**
@@ -72,8 +75,13 @@ class MuestrasTable extends Table
         $validator
             ->integer('cantidad_semillas')
             ->requirePresence('cantidad_semillas', 'create')
-            ->notEmptyString('cantidad_semillas');
-
+            ->notEmptyString('cantidad_semillas')
+            ->add('cantidad_semillas', 'validarNumeroPositivo', [
+                'rule' => function ($value, $context) {
+                    return $value > 0;
+                },
+                'message' => 'La cantidad de semillas debe ser un número positivo.'
+            ]);
         return $validator;
     }
 

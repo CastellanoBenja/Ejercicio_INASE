@@ -1,0 +1,36 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var \App\Model\Entity\Resultado $resultado
+ * @var string[]|\Cake\Collection\CollectionInterface $muestras
+ */
+?>
+<div class="row">
+    <aside class="column">
+        <div class="side-nav">
+            <h4 class="heading"><?= __('Opciones') ?></h4>
+            <?= $this->Form->postLink(
+                __('Delete'),
+                ['action' => 'delete', $resultado->id],
+                ['confirm' => __('Estas seguro que quieres eliminar el resultado # {0}?', $resultado->id), 'class' => 'side-nav-item']
+            ) ?>
+            <?= $this->Html->link(__('Listar Resultados'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+        </div>
+    </aside>
+    <div class="column column-80">
+        <div class="resultados form content">
+            <?= $this->Form->create($resultado) ?>
+            <fieldset>
+                <legend><?= __('Editar Resultado') ?></legend>
+                <?php
+                    echo $this->Form->control('muestra_id', ['options' => $muestras]);
+                    echo $this->Form->control('poder_germinativo');
+                    echo $this->Form->control('pureza');
+                    echo $this->Form->control('materiales_inertes');
+                ?>
+            </fieldset>
+            <?= $this->Form->button(__('Confirmar')) ?>
+            <?= $this->Form->end() ?>
+        </div>
+    </div>
+</div>
