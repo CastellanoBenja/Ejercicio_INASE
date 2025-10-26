@@ -5,7 +5,15 @@
  */
 ?>
 <div class="resultados index content">
-    <?= $this->Html->link(__('Nuevo Resultado'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <div class="dropdown float-right">
+        <button class="dropbtn">Opciones ▼</button>
+            <div class="dropdown-content">
+            <?= $this->Html->link('Agregar Resultados', ['action' => 'add'], ['class' => 'dropdown-item']) ?>
+            <?= $this->Html->link('Ver Listado Muestras', ['controller' => 'Muestras', 'action' => 'index'], 
+            ['class' => 'dropdown-item']) ?>
+            <?= $this->Html->link('Generar Reporte', ['action' => ''], ['class' => 'dropdown-item']) ?>
+    </div>
+</div>
     <h3><?= __('Resultados') ?></h3>
     <div class="table-responsive">
         <table>
@@ -15,6 +23,7 @@
                     <th><?= $this->Paginator->sort('muestra_id') ?></th>
                     <th><?= $this->Paginator->sort('poder_germinativo') ?></th>
                     <th><?= $this->Paginator->sort('pureza') ?></th>
+                    <th><?= $this->Paginator->sort('materiales_inertes') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
@@ -25,6 +34,16 @@
                     <td><?= $resultado->hasValue('muestra') ? $this->Html->link($resultado->muestra->numero_de_precinto, ['controller' => 'Muestras', 'action' => 'view', $resultado->muestra->id]) : '' ?></td>
                     <td><?= $this->Number->format($resultado->poder_germinativo) ?></td>
                     <td><?= $this->Number->format($resultado->pureza) ?></td>
+                    <td>
+                        <?= $this->Text->truncate(
+                            $resultado->materiales_inertes, 
+                            60,
+                            [
+                                'ellipsis' => '...', 
+                                'exact' => false 
+                            ]
+                        ) ?>
+                    </td>
                     <td class="actions">
                         <?= $this->Html->link(__('Ver'), ['action' => 'view', $resultado->id]) ?>
                         <?= $this->Html->link(__('Editar'), ['action' => 'edit', $resultado->id]) ?>

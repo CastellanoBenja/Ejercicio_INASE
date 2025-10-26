@@ -9,6 +9,8 @@
         <button class="dropbtn">Opciones ▼</button>
             <div class="dropdown-content">
             <?= $this->Html->link('Agregar Muestra', ['action' => 'add'], ['class' => 'dropdown-item']) ?>
+            <?= $this->Html->link('Ver Listado de Resultados', ['controller' => 'Resultados', 'action' => 'index'], 
+            ['class' => 'dropdown-item']) ?>
             <?= $this->Html->link('Agregar Resultado', ['controller' => 'Resultados', 'action' => 'add'], 
             ['class' => 'dropdown-item']) ?>
             <?= $this->Html->link('Generar Reporte', ['action' => ''], ['class' => 'dropdown-item']) ?>
