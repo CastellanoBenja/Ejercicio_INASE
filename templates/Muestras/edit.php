@@ -7,20 +7,20 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
+            <h4 class="heading"><?= __('Opciones') ?></h4>
+            <?= $this->Html->link(__('Listar Muestras'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
             <?= $this->Form->postLink(
-                __('Delete'),
+                __('Eliminar'),
                 ['action' => 'delete', $muestra->id],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $muestra->id), 'class' => 'side-nav-item']
+                ['confirm' => __('Estás seguro que quieres eliminar # {0}?', $muestra->id), 'class' => 'side-nav-item']
             ) ?>
-            <?= $this->Html->link(__('List Muestras'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column column-80">
         <div class="muestras form content">
             <?= $this->Form->create($muestra) ?>
             <fieldset>
-                <legend><?= __('Edit Muestra') ?></legend>
+                <legend><?= __('Editar Muestra') ?></legend>
                 <?php
                     echo $this->Form->control('numero_de_precinto');
                     echo $this->Form->control('empresa');
@@ -28,7 +28,7 @@
                     echo $this->Form->control('cantidad_semillas');
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Confirmar')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>

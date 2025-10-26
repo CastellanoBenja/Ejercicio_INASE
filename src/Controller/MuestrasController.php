@@ -47,11 +47,11 @@ class MuestrasController extends AppController
         if ($this->request->is('post')) {
             $muestra = $this->Muestras->patchEntity($muestra, $this->request->getData());
             if ($this->Muestras->save($muestra)) {
-                $this->Flash->success(__('The muestra has been saved.'));
+                $this->Flash->success(__('La muestra fue guardada con éxito.'));
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The muestra could not be saved. Please, try again.'));
+            $this->Flash->error(__('La muestra no pudo ser guardada. Por favor, inténtelo nuevamente.'));
         }
         $this->set(compact('muestra'));
     }
@@ -69,11 +69,11 @@ class MuestrasController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $muestra = $this->Muestras->patchEntity($muestra, $this->request->getData());
             if ($this->Muestras->save($muestra)) {
-                $this->Flash->success(__('The muestra has been saved.'));
+                $this->Flash->success(__('La muestra fue modificada con éxito.'));
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The muestra could not be saved. Please, try again.'));
+            $this->Flash->error(__('La muestra no pudo ser modificada. Por favor, inténtelo nuevamente.'));
         }
         $this->set(compact('muestra'));
     }
@@ -90,9 +90,9 @@ class MuestrasController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $muestra = $this->Muestras->get($id);
         if ($this->Muestras->delete($muestra)) {
-            $this->Flash->success(__('The muestra has been deleted.'));
+            $this->Flash->success(__('La muestra fue eliminada.'));
         } else {
-            $this->Flash->error(__('The muestra could not be deleted. Please, try again.'));
+            $this->Flash->error(__('La muestra no pudo ser eliminada. Por favor, inténtelo nuevamente.'));
         }
 
         return $this->redirect(['action' => 'index']);
