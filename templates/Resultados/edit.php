@@ -9,12 +9,12 @@
     <aside class="column">
         <div class="side-nav">
             <h4 class="heading"><?= __('Opciones') ?></h4>
+            <?= $this->Html->link(__('Listar Resultados'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
             <?= $this->Form->postLink(
-                __('Delete'),
+                __('Eliminar Resultado'),
                 ['action' => 'delete', $resultado->id],
                 ['confirm' => __('Estas seguro que quieres eliminar el resultado # {0}?', $resultado->id), 'class' => 'side-nav-item']
             ) ?>
-            <?= $this->Html->link(__('Listar Resultados'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column column-80">

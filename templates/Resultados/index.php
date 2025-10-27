@@ -23,7 +23,7 @@
                     <th><?= $this->Paginator->sort('poder_germinativo') ?></th>
                     <th><?= $this->Paginator->sort('pureza') ?></th>
                     <th><?= $this->Paginator->sort('materiales_inertes') ?></th>
-                    <th class="actions"><?= __('Actions') ?></th>
+                    <th class="actions"><?= __('Opciones') ?></th>
                 </tr>
             </thead>
             <tbody>

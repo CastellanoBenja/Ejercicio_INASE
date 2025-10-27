@@ -16,8 +16,12 @@
     </aside>
     <div class="column column-80">
         <div class="muestras view content">
-            <h3><?= h($muestra->numero_de_precinto) ?></h3>
+            <h3><?= h($muestra->id) ?></h3>
             <table>
+                <tr>
+                    <th><?= __('Id') ?></th>
+                    <td><?= $this->Number->format($muestra->id) ?></td>
+                </tr>
                 <tr>
                     <th><?= __('Numero De Precinto') ?></th>
                     <td><?= h($muestra->numero_de_precinto) ?></td>
@@ -29,10 +33,6 @@
                 <tr>
                     <th><?= __('Especie') ?></th>
                     <td><?= h($muestra->especie) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Id') ?></th>
-                    <td><?= $this->Number->format($muestra->id) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Cantidad Semillas') ?></th>

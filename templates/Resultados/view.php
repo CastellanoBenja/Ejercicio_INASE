@@ -19,12 +19,12 @@
             <h3><?= h($resultado->id) ?></h3>
             <table>
                 <tr>
-                    <th><?= __('Muestra') ?></th>
-                    <td><?= $resultado->hasValue('muestra') ? $this->Html->link($resultado->muestra->numero_de_precinto, ['controller' => 'Muestras', 'action' => 'view', $resultado->muestra->id]) : '' ?></td>
+                    <th><?= __('ID Muestra') ?></th>
+                    <td><?= $resultado->hasValue('muestra') ? $this->Html->link($resultado->muestra->id, ['controller' => 'Muestras', 'action' => 'view', $resultado->muestra->id]) : '' ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Id') ?></th>
-                    <td><?= $this->Number->format($resultado->id) ?></td>
+                    <th><?= __('Número de Precinto') ?></th>
+                    <td><?= h($resultado->muestra->numero_de_precinto) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Poder Germinativo') ?></th>
