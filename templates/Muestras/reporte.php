@@ -5,7 +5,6 @@
             <div class="dropdown-content">
                 <?= $this->Html->link('Ver Listado Muestras', ['controller' => 'Muestras', 'action' => 'index'], ['class' => 'dropdown-item']) ?>
                 <?= $this->Html->link('Ver Listado Resultados', ['controller' => 'Resultados', 'action' => 'index'], ['class' => 'dropdown-item']) ?>
-                <?= $this->Html->link('Generar Reporte', ['action' => 'reporte'], ['class' => 'dropdown-item']) ?>
             </div>
         </div>
         <button id="btnFiltrar" class="button float-right" style="margin-right: 5px;">Filtrar</button>
