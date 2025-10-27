@@ -110,7 +110,9 @@ class MuestrasController extends AppController
     public function reporte()
     {
         $connection = \Cake\Datasource\ConnectionManager::get('default');
-        $muestras = $connection->execute("
+        $especieSeleccionada = $this->request->getQuery('especie');
+
+        $sql = "
             SELECT 
                 m.id,
                 m.empresa,
@@ -121,8 +123,29 @@ class MuestrasController extends AppController
             FROM muestras m
             LEFT JOIN resultados r
             ON m.id = r.muestra_id
+        ";
+
+        $params = [];
+
+        if (!empty($especieSeleccionada)) {
+            $sql .= " WHERE m.especie = :especie";
+            $params['especie'] = $especieSeleccionada;
+        }
+
+        $muestras = $connection->execute($sql, $params)->fetchAll('assoc');
+
+        $rows = $connection->execute("
+            SELECT DISTINCT m.especie
+            FROM muestras m
+            WHERE m.especie IS NOT NULL
         ")->fetchAll('assoc');
 
-        $this->set(compact('muestras'));
+        $especies = [];
+        foreach ($rows as $row) {
+            $especie = $row['especie'];
+            $especies[$especie] = $especie;
+        }
+
+        $this->set(compact('muestras', 'especies', 'especieSeleccionada'));
     }
 }

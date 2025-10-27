@@ -11,7 +11,7 @@
             <?= $this->Html->link('Agregar Resultados', ['action' => 'add'], ['class' => 'dropdown-item']) ?>
             <?= $this->Html->link('Ver Listado Muestras', ['controller' => 'Muestras', 'action' => 'index'], 
             ['class' => 'dropdown-item']) ?>
-            <?= $this->Html->link('Generar Reporte', ['action' => ''], ['class' => 'dropdown-item']) ?>
+            <?= $this->Html->link('Generar Reporte', ['controller' => 'Muestras', 'action' => 'reporte'], ['class' => 'dropdown-item']) ?>
     </div>
 </div>
     <h3><?= __('Resultados') ?></h3>
