@@ -97,4 +97,34 @@ class MuestrasController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+    /**
+     * Metodo reporte
+     * Genera un reporte con muestras y sus resultados asociados
+     * ejecutando un Left Join entre Muestras y Resultados.
+     * 
+     * El Left Join asegura que todas las muestras se incluyan en el reporte,
+     * incluso si no tienen resultados asociados.
+     *
+     */
+    public function reporte()
+    {
+        $connection = \Cake\Datasource\ConnectionManager::get('default');
+        $muestras = $connection->execute("
+            SELECT 
+                m.id,
+                m.numero_de_precinto,
+                m.empresa,
+                m.especie,
+                m.cantidad_semillas,
+                COALESCE(r.poder_germinativo, 'N/A') AS poder_germinativo,
+                COALESCE(r.pureza, 'N/A') AS pureza,
+                COALESCE(r.materiales_inertes, 'N/A') AS materiales_inertes
+            FROM muestras m
+            LEFT JOIN resultados r
+            ON m.id = r.muestra_id
+        ")->fetchAll('assoc');
+
+        $this->set(compact('muestras'));
+    }
 }

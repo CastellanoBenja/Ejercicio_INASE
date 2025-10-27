@@ -102,3 +102,597 @@ Stack Trace:
 Request URL: /resultados/add
 Referer URL: http://localhost:8765/resultados/add
 Client IP: 127.0.0.1
+2025-10-27 00:04:04 error: [Cake\Controller\Exception\MissingActionException] Action `MuestrasController::reporte()` could not be found, or is not accessible. in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php on line 487
+Exception Attributes: array (
+  'controller' => 'MuestrasController',
+  'action' => 'reporte',
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:08:45 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 150
+Stack Trace:
+- CORE/src/View/Helper/PaginatorHelper.php:163
+- CORE/src/View/Helper/PaginatorHelper.php:174
+- CORE/src/View/Helper/PaginatorHelper.php:409
+- ROOT/templates/Muestras/reporte.php:6
+- CORE/src/View/View.php:1187
+- CORE/src/View/View.php:1144
+- CORE/src/View/View.php:785
+- CORE/src/Controller/Controller.php:712
+- CORE/src/Controller/Controller.php:516
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:09:14 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 150
+Stack Trace:
+- CORE/src/View/Helper/PaginatorHelper.php:163
+- CORE/src/View/Helper/PaginatorHelper.php:174
+- CORE/src/View/Helper/PaginatorHelper.php:409
+- ROOT/templates/Muestras/reporte.php:24
+- CORE/src/View/View.php:1187
+- CORE/src/View/View.php:1144
+- CORE/src/View/View.php:785
+- CORE/src/Controller/Controller.php:712
+- CORE/src/Controller/Controller.php:516
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:09:24 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 150
+Stack Trace:
+- CORE/src/View/Helper/PaginatorHelper.php:163
+- CORE/src/View/Helper/PaginatorHelper.php:174
+- CORE/src/View/Helper/PaginatorHelper.php:409
+- ROOT/templates/Muestras/reporte.php:24
+- CORE/src/View/View.php:1187
+- CORE/src/View/View.php:1144
+- CORE/src/View/View.php:785
+- CORE/src/Controller/Controller.php:712
+- CORE/src/Controller/Controller.php:516
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:09:34 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 150
+Stack Trace:
+- CORE/src/View/Helper/PaginatorHelper.php:163
+- CORE/src/View/Helper/PaginatorHelper.php:174
+- CORE/src/View/Helper/PaginatorHelper.php:409
+- ROOT/templates/Muestras/reporte.php:24
+- CORE/src/View/View.php:1187
+- CORE/src/View/View.php:1144
+- CORE/src/View/View.php:785
+- CORE/src/Controller/Controller.php:712
+- CORE/src/Controller/Controller.php:516
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:09:45 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 150
+Stack Trace:
+- CORE/src/View/Helper/PaginatorHelper.php:163
+- CORE/src/View/Helper/PaginatorHelper.php:174
+- CORE/src/View/Helper/PaginatorHelper.php:409
+- ROOT/templates/Muestras/reporte.php:24
+- CORE/src/View/View.php:1187
+- CORE/src/View/View.php:1144
+- CORE/src/View/View.php:785
+- CORE/src/Controller/Controller.php:712
+- CORE/src/Controller/Controller.php:516
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:10:35 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 150
+Stack Trace:
+- CORE/src/View/Helper/PaginatorHelper.php:163
+- CORE/src/View/Helper/PaginatorHelper.php:174
+- CORE/src/View/Helper/PaginatorHelper.php:409
+- ROOT/templates/Muestras/reporte.php:24
+- CORE/src/View/View.php:1187
+- CORE/src/View/View.php:1144
+- CORE/src/View/View.php:785
+- CORE/src/Controller/Controller.php:712
+- CORE/src/Controller/Controller.php:516
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:16:43 error: [Cake\Database\Exception\QueryException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Muestras.cantidad_de_semillas' in 'field list'
+Query: SELECT Muestras.id AS Muestras__id, Muestras.numero_de_precinto AS Muestras__numero_de_precinto, Muestras.empresa AS Muestras__empresa, Muestras.especie AS Muestras__especie, Muestras.cantidad_de_semillas AS Muestras__cantidad_de_semillas, Resultados.poder_germinativo AS Resultados__poder_germinativo, Resultados.pureza AS Resultados__pureza, Resultados.materiales_inertes AS Resultados__materiales_inertes FROM muestras Muestras LEFT JOIN resultados Resultados ON Muestras.id = Resultados.muestra_id in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Database/Driver.php on line 384
+Stack Trace:
+- CORE/src/Database/Driver.php:360
+- CORE/src/Database/Driver/Mysql.php:178
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:224
+- CORE/src/Database/Query/SelectQuery.php:123
+- CORE/src/ORM/Query/SelectQuery.php:1570
+- CORE/src/ORM/Query/SelectQuery.php:382
+- APP/Controller/MuestrasController.php:125
+- CORE/src/Controller/Controller.php:505
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Muestras.cantidad_de_semillas' in 'field list' in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:342
+- CORE/src/Database/Driver/Mysql.php:178
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:224
+- CORE/src/Database/Query/SelectQuery.php:123
+- CORE/src/ORM/Query/SelectQuery.php:1570
+- CORE/src/ORM/Query/SelectQuery.php:382
+- APP/Controller/MuestrasController.php:125
+- CORE/src/Controller/Controller.php:505
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Client IP: 127.0.0.1
+2025-10-27 00:43:13 warning: Undefined variable $resultado in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 27
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 27
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:43:13 warning: Attempt to read property "materiales_inertes" on null in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 27
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 27
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:43:13 error: [TypeError] Cake\Utility\Text::truncate(): Argument #1 ($text) must be of type string, null given, called in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php on line 65 in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Utility/Text.php on line 581
+Stack Trace:
+- CORE/src/View/Helper/TextHelper.php:65
+- ROOT/templates/Muestras/reporte.php:26
+- CORE/src/View/View.php:1187
+- CORE/src/View/View.php:1144
+- CORE/src/View/View.php:785
+- CORE/src/Controller/Controller.php:712
+- CORE/src/Controller/Controller.php:516
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:117
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:70
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:44:40 warning: Undefined variable $resultado in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 26
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 26
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:44:40 warning: Attempt to read property "materiales_inertes" on null in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 26
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 26
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:44:40 warning: Undefined variable $resultado in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 26
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 26
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:44:40 warning: Attempt to read property "materiales_inertes" on null in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 26
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 26
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:44:40 warning: Undefined variable $resultado in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 26
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 26
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1
+2025-10-27 00:44:40 warning: Attempt to read property "materiales_inertes" on null in /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php on line 26
+Trace:
+Cake\Error\ErrorTrap->handleError() /home/benjamincastellano/2c2025/Ejercicio_INASE/templates/Muestras/reporte.php, line 26
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1187
+Cake\View\View->_evaluate() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 1144
+Cake\View\View->_render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 712
+Cake\Controller\Controller->render() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 516
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /muestras/reporte
+Referer URL: http://localhost:8765/muestras
+Client IP: 127.0.0.1

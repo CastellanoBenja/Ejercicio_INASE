@@ -42,6 +42,8 @@ class MuestrasTable extends Table
         $this->setPrimaryKey('id');
         $this->hasOne('Resultados', [ 
             'foreignKey' => 'muestra_id',
+            'bindingKey' => 'id',
+            'joinType' => 'LEFT'
         ]);
     }
 

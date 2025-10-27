@@ -13,7 +13,7 @@
             ['class' => 'dropdown-item']) ?>
             <?= $this->Html->link('Agregar Resultado', ['controller' => 'Resultados', 'action' => 'add'], 
             ['class' => 'dropdown-item']) ?>
-            <?= $this->Html->link('Generar Reporte', ['action' => ''], ['class' => 'dropdown-item']) ?>
+            <?= $this->Html->link('Generar Reporte', ['action' => 'reporte'], ['class' => 'dropdown-item']) ?>
     </div>
 </div>
     <h3><?= __('Muestras') ?></h3>

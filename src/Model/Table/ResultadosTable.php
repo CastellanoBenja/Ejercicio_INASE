@@ -45,7 +45,7 @@ class ResultadosTable extends Table
 
         $this->belongsTo('Muestras', [
             'foreignKey' => 'muestra_id',
-            'joinType' => 'INNER',
+            'bindingKey' => 'id',
         ]);
     }
 
