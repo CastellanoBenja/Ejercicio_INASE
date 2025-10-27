@@ -54,7 +54,12 @@ class ResultadosController extends AppController
             }
             $this->Flash->error(__('El resultado no se pudo agregar. Por favor, inténtelo nuevamente.'));
         }
-        $muestras = $this->Resultados->Muestras->find('list', limit: 200)->all();
+        $muestras = $this->Resultados->Muestras->find('list', [
+            'keyField' => 'id',
+            'valueField' => 'id'
+        ])
+        ->limit(200)
+        ->toArray();
         $this->set(compact('resultado', 'muestras'));
     }
 
@@ -77,7 +82,13 @@ class ResultadosController extends AppController
             }
             $this->Flash->error(__('El resultado no se pudo editar. Por favor, inténtelo nuevamente.'));
         }
-        $muestras = $this->Resultados->Muestras->find('list', limit: 200)->all();
+        $muestras = $this->Resultados->Muestras->find('list', [
+            'keyField' => 'id',
+            'valueField' => 'id'
+        ])
+        ->limit(200)
+        ->toArray();
+
         $this->set(compact('resultado', 'muestras'));
     }
 

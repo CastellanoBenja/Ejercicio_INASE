@@ -113,10 +113,8 @@ class MuestrasController extends AppController
         $muestras = $connection->execute("
             SELECT 
                 m.id,
-                m.numero_de_precinto,
                 m.empresa,
                 m.especie,
-                m.cantidad_semillas,
                 COALESCE(r.poder_germinativo, 'N/A') AS poder_germinativo,
                 COALESCE(r.pureza, 'N/A') AS pureza,
                 COALESCE(r.materiales_inertes, 'N/A') AS materiales_inertes
