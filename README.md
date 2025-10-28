@@ -84,10 +84,10 @@ http://localhost:8765/muestras
 
 ---
 
-## Conclusiones
+## Aprendizajes y Conclusiones
 
 - Se aplicaron y reforzaron conocimientos sobre el framework CakePHP (conexión con base de datos, generación de código base, desarrollo bajo el patrón MVC).  
-- Se aplicaron y reforzaron conocimientos de Frontend: HTML, CSS y JavaScript.  
+- Se aplicaron y reforzaron conocimientos sobre herramientas de Frontend: HTML, CSS y JavaScript.  
 - Se realizaron operaciones sobre la base de datos: consultas, creación de tablas y establecimiento de reglas.
 
 ---
