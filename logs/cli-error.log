@@ -1,1 +1,28 @@
 2025-10-26 18:10:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2025-10-28 22:19:09 error: [Error] Class "Cake\Core\Dotenv" not found in /home/benjamincastellano/2c2025/Ejercicio_INASE/config/bootstrap.php on line 239
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:186
+- APP/Application.php:49
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-10-28 22:20:39 error: [Error] Class "Cake\Core\Dotenv" not found in /home/benjamincastellano/2c2025/Ejercicio_INASE/config/bootstrap.php on line 239
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:186
+- APP/Application.php:49
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-10-28 22:21:01 error: [Error] Class "Cake\Dotenv\Dotenv" not found in /home/benjamincastellano/2c2025/Ejercicio_INASE/config/bootstrap.php on line 239
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:186
+- APP/Application.php:49
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+

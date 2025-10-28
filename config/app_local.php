@@ -47,10 +47,10 @@ return [
              */
             //'port' => 'non_standard_port_number',
 
-            'username' => 'cake_user',
-            'password' => 'hola_base',
+            'username' => 'inase_user',
+            'password' => '123456',
 
-            'database' => 'inase_app_cakephp',
+            'database' => 'inase_db',
             /*
              * If not using the default 'public' schema with the PostgreSQL driver
              * set it here.

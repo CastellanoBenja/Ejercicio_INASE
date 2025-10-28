@@ -430,3 +430,111 @@ Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/
 Request URL: /resultados/add
 Referer URL: http://127.0.0.1:8765/resultados
 Client IP: 127.0.0.1
+2025-10-27 21:07:30 debug: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php on line 377
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php, line 377
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 2713
+Cake\ORM\Table->invokeFinder() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 2645
+Cake\ORM\Table->callFinder() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 1279
+Cake\ORM\Table->find() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Association.php, line 847
+Cake\ORM\Association->find() /home/benjamincastellano/2c2025/Ejercicio_INASE/src/Controller/ResultadosController.php, line 57
+App\Controller\ResultadosController->add() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 505
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /resultados/add
+Referer URL: http://127.0.0.1:8765/muestras
+Client IP: 127.0.0.1
+2025-10-28 22:51:16 debug: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php on line 377
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php, line 377
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 2713
+Cake\ORM\Table->invokeFinder() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 2645
+Cake\ORM\Table->callFinder() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 1279
+Cake\ORM\Table->find() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Association.php, line 847
+Cake\ORM\Association->find() /home/benjamincastellano/2c2025/Ejercicio_INASE/src/Controller/ResultadosController.php, line 57
+App\Controller\ResultadosController->add() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 505
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /resultados/add
+Referer URL: http://localhost:8765/resultados
+Client IP: 127.0.0.1
+2025-10-28 22:59:26 debug: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php on line 377
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Core/functions.php, line 377
+/home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 2713
+Cake\ORM\Table->invokeFinder() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 2645
+Cake\ORM\Table->callFinder() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Table.php, line 1279
+Cake\ORM\Table->find() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/ORM/Association.php, line 847
+Cake\ORM\Association->find() /home/benjamincastellano/2c2025/Ejercicio_INASE/src/Controller/ResultadosController.php, line 57
+App\Controller\ResultadosController->add() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/Controller.php, line 505
+Cake\Controller\Controller->invokeAction() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /home/benjamincastellano/2c2025/Ejercicio_INASE/webroot/index.php, line 37
+[main]
+
+Request URL: /resultados/add
+Referer URL: http://localhost:8765/resultados
+Client IP: 127.0.0.1
